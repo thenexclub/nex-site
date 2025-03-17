@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nex</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FAF3E0;
+            color: #333;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 28px;
+            color: #D16BA5;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .cta {
+            display: inline-block;
+            padding: 12px 24px;
+            margin-top: 20px;
+            font-size: 18px;
+            color: white;
+            background: #D16BA5;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .cta:hover {
+            background: #C65F91;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input, button, textarea, select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button {
+            background: #D16BA5;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #C65F91;
+        }
+        .testimonials {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Nex</h1>
+        <p>Le club des célibataires en reconstruction. Rencontrez des personnes qui vivent la même étape de vie, élargissez votre cercle social et participez à des événements bienveillants.</p>
+        <p>Parce que la vie continue et qu'on peut tout reconstruire, ensemble.</p>
+        <form>
+            <input type="text" placeholder="Votre prénom" required>
+            <input type="email" placeholder="Votre email" required>
+            <input type="email" placeholder="Votre email Slack (optionnel)">
+            <button type="submit">Rejoindre la liste d'attente</button>
+        </form>
+    </div>
+    
+    <div class="container testimonials">
+        <h2>Témoignages anonymes</h2>
+        <p>Partagez votre expérience ou votre ressenti sur ce concept :</p>
+        <form>
+            <textarea placeholder="Votre témoignage..." rows="4" required></textarea>
+            <select>
+                <option value="public">Afficher mon témoignage publiquement</option>
+                <option value="private">Garder mon témoignage privé</option>
+            </select>
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+</body>
+</html>
